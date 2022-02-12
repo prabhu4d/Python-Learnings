@@ -1,0 +1,11 @@
+# gitignore is used to not add the files and folder
+
+# this comment is added by Rabiya
+
+Practice/static_type/.mypy_cache
+.pytest_cache
+.vscode
+__pycache__
+images
+.ipynb_checkpoints
+venv

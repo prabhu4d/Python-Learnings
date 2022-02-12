@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/index.css'  %}" />
+    <title>Places</title>
+  </head>
+  <body>
+    <div class="places">
+      {% for dest in dests %}
+      <div class="place">
+        <img src="{{dest.img.url}}" alt="Place" />
+        <h3>{{dest.name}}</h3>
+        <p>{{dest.desc}}</p>
+        <div class="offer">
+          <b>$ {{dest.price}}</b>
+          {% if dest.offer %}
+          <div>offer</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

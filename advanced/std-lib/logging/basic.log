@@ -1,0 +1,5 @@
+2021-12-13 12:13:10,848:basics.py:ERROR:Tried to divide by zero
+Traceback (most recent call last):
+  File "basics.py", line 32, in div
+    return x / y
+ZeroDivisionError: division by zero
