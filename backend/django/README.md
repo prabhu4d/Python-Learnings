@@ -48,8 +48,11 @@
    - By convention DjangoTemplates looks for a “templates” subdirectory in each of the INSTALLED_APPS.
 
 9. Generic Views
+
    1. ListView
    2. DetailView
+
+   - [function view vs class based view](https://youtu.be/mKzStOGIc4A)
 
 ## Commands
 
