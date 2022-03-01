@@ -54,6 +54,10 @@
 
    - [function view vs class based view](https://youtu.be/mKzStOGIc4A)
 
+10. models, null vs blank
+    1. null for DB
+    2. blank for form Fields
+
 ## Commands
 
 - To Create a Project
