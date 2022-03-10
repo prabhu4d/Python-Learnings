@@ -1,6 +1,7 @@
 # Set
 
 - Sets are unordered containers of unique values
+- Sets, you can think of as dicts without value
 
 s = {1, 2, 3}
 
@@ -18,4 +19,3 @@ t = {3, 4, 5}
 | s >= t    | Superset                                      | False           |
 
 ### Hashing
-
