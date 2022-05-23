@@ -10,3 +10,5 @@ images
 .ipynb_checkpoints
 venv
 !backend/django/ecommerce-dennis-ivy/static/images
+*/htmlcov
+.coverage
