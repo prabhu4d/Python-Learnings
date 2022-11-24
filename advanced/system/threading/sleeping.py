@@ -20,7 +20,8 @@ def do_something(seconds):
 threads = []
 
 for i in range(10):
-    t = threading.Thread(target=do_something, args=[(i+1)/10])
+    # t = threading.Thread(target=do_something, args=[(i+1)/10])
+    t = threading.Thread(target=do_something, args=[2])
     t.start()
     threads.append(t)
 
